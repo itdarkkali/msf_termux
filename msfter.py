@@ -30,8 +30,6 @@ main()
 def doyouinstall():
 	global fff
 	fff = input("[???] Do you want to install metasploit? (y/n): ")
-while True:
-	doyouinstall()
 	if fff == "y":
 		print("======================================")
 		print("[+] Jesus, it will take a lot of time!")
@@ -48,5 +46,7 @@ while True:
 		exit()
 	else:
 		doyouinstall()
+while True:
+	doyouinstall()
 
 
